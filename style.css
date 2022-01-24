@@ -9,6 +9,16 @@ body {
     font-family: 'Poppins','Inter','Manrope',sans-serif;
 }
 
+/* .carousal */
+ .bd-placeholder-img {
+     font-size: 1.125rem;
+     text-anchor: middle;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     user-select: none;
+ }
+
+
 /* Pricing Header  */
 
 .pricing-header {
@@ -32,6 +42,17 @@ body {
     transform: scale(.9);
 
 }
+/*************
+ Footer
+*************/
+
+footer{
+    height: 280px;
+}
+
+
+
+
 
 
 
@@ -77,5 +98,13 @@ body {
     .carousel-indicators {
         display: none;
     }
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
     
 }
+
+
+ 
+
+ 
