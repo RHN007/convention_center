@@ -85,14 +85,14 @@ footer{
         top:30%
     }
     .carousel-caption h2 {
-        font-size: 50%;     
+        font-size: 65%;     
     }
 
     .carousel-caption p {
         font-size: 50%;      
     }
     .carousel-caption .btn {
-        font-size: 60%;
+        font-size: 50%;
         padding: 5px 8px;
     }
     .carousel-indicators {
