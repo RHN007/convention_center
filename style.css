@@ -83,6 +83,7 @@ footer{
 @media (max-width:576px) {
     .carousel-caption {
         top:30%
+        
     }
     .carousel-caption h2 {
         font-size: 65%;     
@@ -97,9 +98,6 @@ footer{
     }
     .carousel-indicators {
         display: none;
-    }
-    .bd-placeholder-img-lg {
-        font-size: 3.5rem;
     }
     
 }
