@@ -8,3 +8,49 @@
 body {
     font-family: 'Poppins','Inter','Manrope',sans-serif;
 }
+
+
+
+
+
+
+/*************
+ Media Query 
+*************/
+
+@media (max-width:768px){
+    .carousal-caption{
+        top:45%
+    }
+    .carousal-caption h2{
+        font-size: 350%;
+    }
+    .carousal-caption p{
+        font-size: 140%;
+        padding-bottom: .2rem;
+    }
+    .carousal-caption .btn {
+        font-size: 95%;
+        padding: 8px 14px; 
+    }
+}
+
+@media (max-width:576px) {
+    .carousel-caption {
+        top:30%
+    }
+    .carousel-caption h2 {
+        font-size: 50%;     
+    }
+
+    .carousel-caption p {
+        font-size: 50%;      
+    }
+    .carousel-caption .btn {
+        font-size: 60%;
+        padding: 5px 8px;
+    }
+    .carousel-indicators {
+        display: none;
+    }
+}
