@@ -54,6 +54,9 @@ body {
         font-size: 95%;
         padding: 8px 14px; 
     }
+    .hot:hover {
+        transform: scale(.9);
+    }
 }
 
 @media (max-width:576px) {
@@ -74,4 +77,5 @@ body {
     .carousel-indicators {
         display: none;
     }
+    
 }
