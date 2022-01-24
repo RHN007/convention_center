@@ -12,6 +12,8 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <!-- Font Awesome CDN  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <!-- Vanilla CSS  -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -157,7 +159,156 @@
     </header>
 
     <!-- Main Section  -->
-    <main></main>
+    <main class="container-fluid">
+
+ 
+
+<!-- Pricing Plan -->
+  <section class=" py-3 price">
+     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class=" fw-bold">Our Packages</h1>
+      
+    </div>
+    <div class="row row-cols-1 row-cols-md-4 mb-3 gx-5 ">
+      <div class="col">
+        <div class="card mb-4 ps-3 border-0 shadow-lg ">
+          <div class="card-header py-3 border-0 bg-transparent">
+            <h4 class="my-0 fw-bold">Business Fare</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title fw-bold">$300</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <p>For Most business event like book fair , craft fair</p>
+              <li> <i class="fas fa-check-circle"></i> Limited Space Access</li>
+              <li> <i class="fas fa-check-circle"></i>  Security Facility</li>
+              <li> <i class="fas fa-check-circle"></i>  Event support</li>
+              <li> <i class="fas fa-check-circle"></i>  Decoration Design</li>
+              <li> <i class="fas fa-check-circle"></i> Per Day Bill </li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary rounded-pill fw-bold">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+       <div class="col">
+        <div class="card mb-4 border-0 ms-3 shadow-lg ">
+          <div class="card-header py-3 border-0 bg-transparent">
+            <h4 class="my-0 fw-bold">Wedding Basic</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title fw-bold">$500</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <p >For Wedding with basic Plan and limited item</p>
+              <li> <i class="fas fa-check-circle"></i> Full Space Access</li>
+              <li> <i class="fas fa-check-circle"></i>  Food Arrangement</li>
+              <li> <i class="fas fa-check-circle"></i>  Management support</li>
+              <li> <i class="fas fa-check-circle"></i>  Decoration Design</li>
+              <li> <i class="fas fa-check-circle"></i> Billed as shift </li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary rounded-pill fw-bold">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card  mb-4 shadow-lg hot bg-primary text-white">
+          <div class="card-header py-3  bg-transparent border-0">
+            <h4 class="my-0 fw-bold">Wedding Plus <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+  <i class="fab fa-hotjar"></i> HOT
+    <span class="visually-hidden">Top Selling product</span>
+  </span></h4>
+          </div>
+          <div class="card-body ">
+            <h1 class="card-title pricing-card-title fw-bold">$800</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <p class="fw-bold">For Most Corporate Business Events.</p>
+              <li> <i class="fas fa-check-circle"></i> Full Space Access</li>
+              <li> <i class="fas fa-check-circle"></i>  Dedicated Team</li>
+              <li> <i class="fas fa-check-circle"></i>  Buffet Food</li>
+              <li> <i class="fas fa-check-circle"></i>  Premium Decoration</li>
+              <li> <i class="fas fa-check-circle"></i> Pay As per plan</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-light text-primary rounded-pill fw-bold">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+       <div class="col">
+        <div class="card mb-4 shadow-lg border-0">
+          <div class="card-header py-3 border-0 bg-transparent" >
+            <h4 class="my-0 fw-bold">Corporate Events</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title fw-bold">$1200</h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <p>For Most business event like book fair , craft fair</p>
+              <li> <i class="fas fa-check-circle"></i> Limited Space Access</li>
+              <li> <i class="fas fa-check-circle"></i>  Security Facility</li>
+              <li> <i class="fas fa-check-circle"></i>  Event support</li>
+              <li> <i class="fas fa-check-circle"></i>  Decoration Design</li>
+              <li> <i class="fas fa-check-circle"></i> Per Day Bill </li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary rounded-pill fw-bold">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+    <div class="table-responsive">
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th style="width: 34%;"></th>
+            <th style="width: 22%;">Free</th>
+            <th style="width: 22%;">Pro</th>
+            <th style="width: 22%;">Enterprise</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Public</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Private</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Permissions</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Sharing</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Unlimited members</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Extra security</th>
+            <td></td>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    </section>
+  </main>
     <!-- Footer Section  -->
     <footer></footer>
 
@@ -167,5 +318,11 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+     <!-- </svg> -->
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check" viewBox="0 0 16 16">
+      <title>Check</title>
+      <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
   </body>
 </html>

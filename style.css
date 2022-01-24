@@ -9,8 +9,29 @@ body {
     font-family: 'Poppins','Inter','Manrope',sans-serif;
 }
 
+/* Pricing Header  */
+
+.pricing-header {
+    max-width: 700px;
+}
 
 
+
+
+
+/* card Section  */
+
+.card {
+    border-radius: 26px !important;
+}
+.hot:hover {
+    transform: scale(1.1);
+}
+
+.hot button:hover {
+    transform: scale(.9);
+
+}
 
 
 
